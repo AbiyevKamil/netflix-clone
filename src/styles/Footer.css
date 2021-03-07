@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    padding: 25px;
+}
+
+.footer-content {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(216,26,33);
+}

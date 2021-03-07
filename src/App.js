@@ -2,6 +2,7 @@ import Row from "./components/Row";
 import requests from "./resources/requests";
 import Banner from "./components/Banner";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import "./styles/App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Row title={"Horror Movies"} fetchURL={requests.fetchHorrorMovies} />
       <Row title={"Romance Movies"} fetchURL={requests.fetchRomanceMovies} />
       <Row title={"Documentaries"} fetchURL={requests.fetchDocumentaries} />
+      <Footer />
     </div>
   );
 }
